@@ -270,23 +270,28 @@ This project aims to demontrate a continuous integration piepline used in typica
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI42.png" width="700"  title="hover text">
   </p>
-  <p align="center">
-  Here is the beginning of the Jenkinsfile pipeline. It basically says it will run on any agent, and as far ad tools it will use maven and jdk. Then you will create the environmental variables for Nexus.
+ <p align="center">
+  Go to Global credentials and create a variable for Nexus login. Make sure you piut the Nexus password you created earlier.
+  </p>
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI43.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Create the stages  part of the pipeline. In this stage you will BUILD from the settings.xml file. -DskipTests will compile the tests but not run them.
+  Here is the beginning of the Jenkinsfile pipeline. It basically says it will run on any agent, and as far ad tools it will use maven and jdk. Then you will create the environmental variables for Nexus.
+  </p>
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI44.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Create pipeline
+  Create the stages  part of the pipeline. In this stage you will BUILD from the settings.xml file. -DskipTests will compile the tests but not run them.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI45.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create pipeline
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI46.png" width="700"  title="hover text">
