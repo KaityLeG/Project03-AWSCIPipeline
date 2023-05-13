@@ -48,22 +48,37 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI3.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Create sonarqube security group and allow security of nexus and soonar to allow test results to be uploaded.
+  Create sonarqube security group and allow security of jenkins and sonar to allow test results to be uploaded.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI4.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to jenkins SG and allow for sonar to send results back to jenkins.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI5.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Creat EC2 for Jenkins server. Put in user data that installs java, maven, jenkins.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI6.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create EC2 for Nexus server. Put user data that installs nexus.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI7.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create EC2 for sonarqube and put user data that installs sonarqube.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI8.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  SSH into jenkins server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI9.png" width="700"  title="hover text">
