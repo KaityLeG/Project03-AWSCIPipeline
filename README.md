@@ -12,8 +12,6 @@ This project aims to demontrate a continuous integration piepline used in typica
 * Notify for every build status
 * Can fix bugs quicker
 
-This gives ease of infrastructure management that will be easy to use and will not require so many teams.
-
 
  **OBJECTIVE:**
 
