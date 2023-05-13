@@ -123,13 +123,10 @@ This project aims to demontrate a continuous integration piepline used in typica
   Go to Manage Plugins
   </p>
   <p align="center">
-  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI16.png" width="700"  title="hover text">
+  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI17.png" width="700"  title="hover text">
   </p>
   <p align="center">
   Install these plugins for integration of maven, github, nexus, sonarqube, slack, and build timestamp to label the build jobs automatically.
-  </p>
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI17.png" width="700"  title="hover text">
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI18.png" width="700"  title="hover text">
