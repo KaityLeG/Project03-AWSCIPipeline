@@ -173,29 +173,53 @@ This project aims to demontrate a continuous integration piepline used in typica
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI25.png" width="700"  title="hover text">
   </p>
+  Go to Nexus server and create a release repository
+  </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI26.png" width="700"  title="hover text">
+  </p>
+  Create a central repository
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI27.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Creat snapshot repository for snapshot backups
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI28.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create group repository that will contain all the previous repos just created.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI29.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to SonarQube server see if its up and running.
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI30.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Creay keygen pair.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI31.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Grab SSH link of github and SSH to it.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI32.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Make new directory and git clone repo containing source code
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI33.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create new ci-jenkins branch in new repo
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI34.png" width="700"  title="hover text">
@@ -204,31 +228,60 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI35.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  New repo containing source code created locally and remote.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI36.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Here you can see the repo created.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI37.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Update packages and install jdk-8.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI38.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to path to show jdk installed versions and select java-1.8.0
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI39.png" width="700"  title="hover text">
+  </p>
+  Go to jenkins and since we will use jdk-8, insert the path to it so it doesnt recognize the otner versions.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI40.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Add this Maven version.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI41.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Global credentials and create a variable for Nexus login. Make sure you piut the Nexus password you created earlier.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI42.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Here is the beginning of the Jenkinsfile pipeline. It basically says it will run on any agent, and as far ad tools it will use maven and jdk. Then you will create the environmental variables for Nexus.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI43.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create the stages  part of the pipeline. In this stage you will BUILD from the settings.xml file. -DskipTests will compile the tests but not run them.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI44.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create pipeline
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI45.png" width="700"  title="hover text">
