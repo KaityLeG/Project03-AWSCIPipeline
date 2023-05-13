@@ -132,16 +132,31 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI18.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Log into nexus EC2 instance
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI19.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Check to see if Nexus is up and running
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI20.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to Sign in of Nexus homepage
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI21.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to the path provided and go to your terminal to locate password.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI22.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  You can see the password at the beginning of hostname in the terminal. Go back, Copy and paste into nexus log in prompt screen.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI23.png" width="700"  title="hover text">
