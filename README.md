@@ -173,11 +173,13 @@ This project aims to demontrate a continuous integration piepline used in typica
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI25.png" width="700"  title="hover text">
   </p>
+  <p align="center">
   Go to Nexus server and create a release repository
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI26.png" width="700"  title="hover text">
   </p>
+  <p align="center">
   Create a central repository
   </p>
   <p align="center">
