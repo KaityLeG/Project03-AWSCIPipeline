@@ -36,10 +36,19 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI1.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create security group for jenkins server. Allow SSH, and port 8080.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI2.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create nexus security group allowing port 8081 for nexus and SSH.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI3.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create sonarqube security group and allow security of nexus and soonar to allow test results to be uploaded.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI4.png" width="700"  title="hover text">
