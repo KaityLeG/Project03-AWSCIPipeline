@@ -311,13 +311,3 @@ This project aims to demontrate a continuous integration piepline used in typica
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI93.png" width="700"  title="hover text">
   </p>
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI1.png" width="700"  title="hover text">
-  </p>
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI1.png" width="700"  title="hover text">
-  </p>
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI1.png" width="700"  title="hover text">
-  </p>
-  
