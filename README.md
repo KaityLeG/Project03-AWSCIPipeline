@@ -84,25 +84,49 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI9.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Check to see if jenkins is installed and running properly.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI10.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Copy this path and type it in the terminal.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI11.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Here you can see the password provided by jenkins to log into the jenkins server.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI12.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Install suggested plugins.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI13.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create Admin user
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI14.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Make sure to put jenkins url from ec2 instance.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI15.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to Manage Plugins
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI16.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Install these plugins for integration of maven, github, nexus, sonarqube, slack, and build timestamp to label the build jobs automatically.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI17.png" width="700"  title="hover text">
