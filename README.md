@@ -297,31 +297,58 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI46.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Add SSH key you created earlier as credentials.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI47.png" width="700"  title="hover text">
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI48.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Cat the SSH key
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI49.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Here will be an error. your github repo must be downloaded into jenkins server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI50.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Authenticate the github repo into the jenkins server
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI51.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Specify ci-jenkins branch Where the Jenkinsfile resides.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI52.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Build the pipeline now and you should see a success.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI53.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Nexus and now you should see dependencies now into the nexus repository
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI54.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  In order to make this build process automated. Creat a github webhook. Load the jenkins URL into github repo webhook settings
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI55.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Build Triggers and check Github hook trigger.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI56.png" width="700"  title="hover text">
