@@ -162,7 +162,13 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI23.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Enter password
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI24.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Disable anonymous access so credentials would be required
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI25.png" width="700"  title="hover text">
