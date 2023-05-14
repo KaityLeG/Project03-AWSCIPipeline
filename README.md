@@ -467,10 +467,13 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI76.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Create a SonarQube webhook to link to Jenkins. Load IP of Jenkisn server.
+  Choose the Quality Gate that was just created.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI77.png" width="700"  title="hover text">
+  </p>
+   <p align="center">
+  Create a SonarQube webhook to link to Jenkins. Load IP of Jenkins server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI78.png" width="700"  title="hover text">
