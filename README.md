@@ -380,10 +380,19 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI61.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to SonarQube plugin and name it and choose the version.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI62.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to SonarQube and Get your SonarQube token.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI63.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Global Credentials and add the SonarQube token.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI64.png" width="700"  title="hover text">
@@ -392,34 +401,67 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI65.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go back to Jenkinsfile, edit in SonarQube env. variables.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI66.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Add SonarQube stage. Create an env. variable so it can locate the sonarscanner tool. Create a step within the SonarQube stage. All these files can be found in jenkins Workspace. It will target these files and perform the code analysis.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI67.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Commit and see if build is successful.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI68.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to SonarQube and see the profile of your project. These are the stats of the pass or failure analysis.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI69.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to Project settings and click Quality Gate. This will put in parameters that the project should meet.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI70.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Click Create.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI71.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Name the Quality Gate you want to implement.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI72.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Chose overall code for Bugs when its greater than 25%.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI73.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Here the QG is created.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI74.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Choose the Quality Gate that was just created.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI75.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Create a SonarQube webhook to link to Jenkins. Load IP of Jenkisn server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI76.png" width="700"  title="hover text">
