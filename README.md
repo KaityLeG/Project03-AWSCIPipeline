@@ -425,9 +425,6 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI69.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Go to Project settings and click Quality Gate. This will put in parameters that the project should meet.
-  </p>
-  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI70.png" width="700"  title="hover text">
   </p>
   <p align="center">
@@ -467,13 +464,10 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI76.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Choose the Quality Gate that was just created.
+  Create a SonarQube webhook to link to Jenkins. Load IP of Jenkins server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI77.png" width="700"  title="hover text">
-  </p>
-   <p align="center">
-  Create a SonarQube webhook to link to Jenkins. Load IP of Jenkins server.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI78.png" width="700"  title="hover text">
