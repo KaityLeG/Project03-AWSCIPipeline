@@ -431,31 +431,31 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI70.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Click Create.
+  Go to Project settings and click Quality Gate. This will put in parameters that the project should meet.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI71.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Name the Quality Gate you want to implement.
+  Click Create.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI72.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Chose overall code for Bugs when its greater than 25%.
+  Name the Quality Gate you want to implement.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI73.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Here the QG is created.
+  Chose overall code for Bugs when its greater than 25%.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI74.png" width="700"  title="hover text">
   </p>
   <p align="center">
-  Choose the Quality Gate that was just created.
+  Here the QG is created.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI75.png" width="700"  title="hover text">
