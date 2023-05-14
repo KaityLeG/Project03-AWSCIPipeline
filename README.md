@@ -470,50 +470,100 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI77.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Create Quality Gate stage and add the time it will take for the quality gate to abort.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI78.png" width="700"  title="hover text">
+  </p>
+  You will see failure because of the parameters set.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI79.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go back to the quality gate and change the value to 100.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI80.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Here's your new build taking place.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI81.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to build timestamp trigger and add a pattern so that your builds can be timestamped and numbered.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI82.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Add Upload Artifact stage and reference Nexus credentials so they can be uploaded.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI83.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Commit and here is the new build.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI84.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to release repo and see the artifacts uploaded to Nexus repo.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI85.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to slack and create a channel.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI86.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Name it jenkinscicd.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI87.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Go to Slack app directory and choose Jenkins and add the channel that was just created.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI88.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Add Slac token provided and insert it into Jenkin's global credentials.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI89.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Add the token to credentials.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI90.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Jenkinsfile and add post actions. These post actions means this will take action after the build is completed.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI91.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  At the top of the Jenkinsfile add COLOR MAP which will refer to Jenkins BUILD results SUCCESS or FAILURE as good or danger.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI92.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Commit and the build pipeline is now complete.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI93.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Go to Slack and see the success or failure notification.
   </p>
