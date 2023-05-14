@@ -354,13 +354,24 @@ This project aims to demontrate a continuous integration piepline used in typica
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI56.png" width="700"  title="hover text">
   </p>
   <p align="center">
+  Do a commit and you should see a build automatically activate.
+  </p>
+  <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI57.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  The second stage will be a Test. It will analyze the code.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI58.png" width="700"  title="hover text">
   </p>
+  Commit and your build should be a success.
+  </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI59.png" width="700"  title="hover text">
+  </p>
+  <p align="center">
+  Here you can see the artifacts created now.
   </p>
   <p align="center">
   <img src="https://raw.githubusercontent.com/KaityLeG/Project03-AWSCIPipeline/main/images/JCI60.png" width="700"  title="hover text">
